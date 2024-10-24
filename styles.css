@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+form {
+    width: 100%;
+}
+
+.question-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 50px;
+}
+
+.question-text {
+    position: absolute;
+    left: 40%;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.radio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.radio-option {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.option-button {
+    position: absolute;
+    left: 40%;
+}
+
+.option-label {
+    position: absolute;
+    border-radius: 15px;
+    padding: 10px;
+    left: 45%;
+}
+
+.nav-button {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+    border-style: none;
+    outline-style: none;
+    background-color: darkgray
+}
+
+.nav-button:hover {
+    background-color: rgb(200, 199, 199);
+}
+
+.nav-button:active {
+    background-color: rgb(136, 134, 134)
+}
+
+.correct {
+    background-color: lightgreen;
+}
+
+.incorrect {
+    background-color: lightcoral;
+}
